@@ -1,7 +1,7 @@
 import NavigationBar from "@/components/Navbar";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import mobile from "../assets/images/Lovepik_com-450040363- Mobile bank vector.png";
+import mobile from "../assets/images/mobile.png";
 import Button from "@/components/Button";
 import Footer from "@/components/Footer";
 import Head from "next/head";
