@@ -4,11 +4,20 @@ import { useRouter } from "next/router";
 import mobile from "../assets/images/Lovepik_com-450040363- Mobile bank vector.png";
 import Button from "@/components/Button";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 export default function Home() {
   const router = useRouter();
   return (
     <main className="w-full flex  relative flex-col items-center justify-center ">
+      <Head>
+        <title>AceCoin Pay</title>
+        <meta
+          name="description"
+          content="Built by Ifeanyi Osi-Okeke"
+          key="desc"
+        />
+      </Head>
       <NavigationBar />
       <div className=" mt-[100px] w-full flex flex-col-reverse lg:flex-row items-center justify-center lg:px-[80px] px-6">
         <div>
