@@ -33,3 +33,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+dist/cache/webpack/client-development/1.pack
+dist/cache/webpack/client-development/0.pack
