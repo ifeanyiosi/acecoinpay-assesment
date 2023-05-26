@@ -10,7 +10,7 @@ const About = (props: Props) => {
   return (
     <section>
       <NavigationBar />
-      <div className="mt-[100px] flex-col flex items-center justify-center gap-8 ">
+      <div className="mt-[100px] flex-col flex items-center justify-center gap-8 px-6 ">
         <h1 className="text-[30px] text-blacked">
           {" "}
           Congratulations, you have made it this far{" "}

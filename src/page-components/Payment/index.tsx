@@ -46,7 +46,7 @@ const Payments = (props: Props) => {
                 console.log(values);
                 setTimeout(() => {
                   setLoading(false);
-                  router.push("/");
+                  router.push("/about");
                 }, 1500);
               }}
               initialValues={formInitialValues}
